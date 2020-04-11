@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Aligno.me | Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -15,37 +15,65 @@
 <div class="text-center main">
   <div class="main-text">
     <h1>Welcome to Aligno!</h1>
-    <p>We provide</p> 
+    <p>We provide unbiased information to help you figure out which candidates align with your views the best.</p> 
   </div>
 </div>
-
 
   
 <div class="container topics-section">
   <div class="row">
     <div class="col-sm-4 topic-box">
-      <div class="topic-content">
-        <h3>Column 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-      </div>
+      <button class="btn btn-primary topic-content" onclick="relocate_climate()" role="button">
+        <span class="topic-text">Climate Change</span>
+      </button>
     </div>
     <div class="col-sm-4 topic-box">
-      <div class="topic-content">
-        <h3>Column 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-      </div>
+      <button class="btn btn-primary topic-content" onclick="relocate_immigration()" role="button">
+        <span class="topic-text">Immigration</span>
+      </button>
     </div>
     <div class="col-sm-4 topic-box">
-      <div class="topic-content">
-        <h3>Column 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-      </div>
+      <button class="btn btn-primary topic-content" onclick="relocate_gun()" role="button">
+        <span class="topic-text">Gun Control</span>
+      </button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 topic-box">
+      <button class="btn btn-primary topic-content" onclick="relocate_climate()" role="button">
+        <span class="topic-text">Economy</span>
+      </button>
+    </div>
+    <div class="col-sm-4 topic-box">
+      <button class="btn btn-primary topic-content" onclick="relocate_immigration()" role="button">
+        <span class="topic-text">Education</span>
+      </button>
+    </div>
+    <div class="col-sm-4 topic-box">
+      <button class="btn btn-primary topic-content" onclick="relocate_gun()" role="button">
+        <span class="topic-text">Abortion</span>
+      </button>
     </div>
   </div>
 </div>
 
 </body>
+
+<script>
+function relocate_immigration()
+{
+     location.href = "immigration.html";
+} 
+
+function relocate_gun()
+{
+     location.href = "GunControl.html";
+} 
+
+function relocate_climate()
+{
+     location.href = "climate.html";
+} 
+</script>
+
 </html>

@@ -1,0 +1,32 @@
+
+/* General Info */
+.topic-main {
+  height: 250px;
+  background-color: #223e92;
+  color: white;
+}
+
+.topic-main-text {
+	padding-top: 100px;
+}
+
+/* Candidate Positions */
+
+.topics-section {
+  height: 700px;
+}
+
+.general-info {
+	margin: 40px;
+}
+
+.section {
+	margin-bottom: 55px;
+}
+
+
+.topic-box{
+	width: 90%;
+}
+
+

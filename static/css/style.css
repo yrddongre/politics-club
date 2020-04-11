@@ -3,12 +3,12 @@
 /* Header of the Website */
 .main {
   height: 500px;
-  background-color: rgb(19, 94, 245);
+  background-color: #223e92;
 }
 
 .main-text {
   padding-top: 150px;
-  color: white;
+  color: #93bdf9;
 }
 
 
@@ -24,6 +24,17 @@
 }
 
 .topic-content {
-  background-color: rgb(224, 22, 4);
+  background-color: #e6131c;
+  border: #e6131c;
   padding: 5px;
+  width: 100%;
+  height: 200px;
+}
+
+.topic-text {
+  margin-top: 200px!important;
+}
+
+#c1 {
+  text-align: center;
 }
